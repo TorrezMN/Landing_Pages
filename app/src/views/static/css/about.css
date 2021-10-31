@@ -1,0 +1,49 @@
+@media all and (min-width: 30em) {
+  #about{
+    background: blue;
+    width: 100vw;
+    height:100vh;     
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+
+
+  }
+}
+
+
+@media all and (max-width: 30em) {
+  #about{
+    background:blue;
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    background-image: url('../img/walker.jpg');
+    background-attachment:fixed;
+    background-position: 35% 80%;
+    background-repeat: no-repeat;
+    position:relative;
+  }
+  #aboutTitle{
+
+  }
+  .title{
+    font-size:var(--title-small-size);    
+
+
+  }
+  .description{
+    font-size:var(--subtitle-small-size);
+  }
+}
+
+
+

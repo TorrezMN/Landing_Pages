@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+@media all and (min-width: 30em) {
+  #contact{
+    background:black;
+    width:100vw;
+    height:50vh;
+  }
+}
+
+
+
+@media all and (max-width: 30em) {
+  #contact{
+    background: black;
+    width:100vw;
+    height:50vh;;
+  }
+}
