@@ -10,18 +10,23 @@
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat; 
-
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
   }
-
+  #indexTitle{
+    border:3px solid black;
+    padding: 2rem 6rem 2rem 6rem;
+    transition:.3s;
+  }
   .title{
     font-size: var(--title-big-size);
+    font-family: var(--main-font);
   }
   .subtitle{
     font-size: var(--subtitle-big-size);
+    font-family: var(--main-font);
   }
 }
 
@@ -36,8 +41,6 @@
     background-position: center;
     background-repeat: no-repeat; 
 
-
-
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -46,8 +49,10 @@
 
   .title{
     font-size:var(--title-small-size);
+    font-family:var(--main-font);
   }
   .subtitle{
     font-size:var(--subtitle-small-size);
+    font-family:var(--main-font);
   }
 }

@@ -3,10 +3,110 @@
 
 @media all and (min-width: 30em) {
   #scales{
-    background:gray;
+    padding-top:5rem;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family:var(--main-font);
+
   }
+
+  #page_content{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+  }
+
+
+  #scales>.title{
+    font-size:var(--title-big-size);
+  }
+
+
+  #scales_list{
+    margin-top:1.5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:60vh;
+  } 
+
+  .scale{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin:5px 10px 5px 10px;
+    width:80%;
+    min-height:8vh;
+  }
+  .scale_title{
+    width:30%;
+    min-height:100%;
+  }
+  .scale_desc{
+    width:70%;
+    min-height:100%;
+  }
+  
+  #good{
+    background: rgba(1, 152, 117, 1);
+  }
+  #moderate{
+    background: rgba(250, 216, 89, 1);
+  }
+  #unhealthy_groups{
+    background: rgba(230, 126, 34, 1);
+  }
+  #unhealthy{
+    background: rgba(214, 69, 65, 1);
+  }
+  #very_unhealthy{
+    background: rgba(102, 51, 153, 1);
+  }
+  #dangerous{
+    background: #900C3F;
+  }
+
+
+  #docs{
+    width:100vw;
+    height:45vh;
+    /* background:rgba(0,0,0,.2); */
+    margin-top:3rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+    
+
+    background-image : url('../img/more.jpg');
+    background-attachment: fixed;
+    background-position:40% 10%;
+  }
+  #docs>a{
+    text-decoration:none;
+    color:whitesmoke;
+    cursor:pointer;
+    background:transparent;
+    transition:0.3s;
+    padding:0;
+    border-bottom:2px solid whitesmoke;
+  }
+  #docs>a:hover{
+    opacity:1;
+    background:orange;
+    color:whitesmoke;
+    padding:2rem 5rem 2rem 5rem;
+  }
+
+
 }
 
 
@@ -72,5 +172,24 @@
     background: #900C3F;
   }
 
+
+  #docs{
+    width:100vw;
+    height:25vh;
+    background:rgba(0,0,0,.2);
+    margin-top:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    }
+  #docs>a{
+    text-decoration:none;
+    color:black;
+  }
+  #docs>a:hover{
+    cursor:pointer;
+  }
+  
 
 }

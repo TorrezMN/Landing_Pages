@@ -3,14 +3,32 @@
     background: blue;
     width: 100vw;
     height:100vh;     
-
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-
-
-
+    background-image: url('../img/walker.jpg');
+    background-attachment:fixed;
+    background-position:10% 40%;
+    background-repeat: no-repeat;
+  }
+  #aboutTitle{
+    background:rgba(0,0,0,.2);
+    transition:.5s;
+    padding:2rem 5rem 2rem 5rem;
+  }
+  #aboutTitle:hover{
+    background:rgba(0,0,0,.5);
+    color:whitesmoke;
+  }
+  .title{
+    font-size:var(--title-big-size);
+    font-family: var(--main-font);
+  }
+  .description{
+    font-size: var(--subtitle-big-size);
+    font-family:var(--main-font);
+    width:70vw;
   }
 }
 
@@ -37,11 +55,13 @@
   }
   .title{
     font-size:var(--title-small-size);    
-
+    font-family:var(--main-font);
 
   }
   .description{
     font-size:var(--subtitle-small-size);
+    font-family:var(--main-font);
+    width:80vw;
   }
 }
 

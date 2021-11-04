@@ -6,11 +6,9 @@ import './static/css/scales.css';
 function Scales(){
   return(
       <div id='scales'>
-      
-
-
-
-
+        <div className='title'>
+          <p>How to know what happens?</p>
+        </div>
         <div id='scales_list'>
           <div className='scale'>
             <p id='good' className='scale_title'>Good <br/> (0-50)</p>
@@ -36,10 +34,10 @@ function Scales(){
             <p id='dangerous' className='scale_title'>Dangerous <br/>(301-500)</p>
             <p className='scale_desc'>Avoid all physical activities outdoors.</p>
           </div>
+        </div>
 
-
-          
-          
+        <div id='docs'>
+          <a href='#'>WANT TO KNOW MORE?</a>
         </div>
       </div>
       )
