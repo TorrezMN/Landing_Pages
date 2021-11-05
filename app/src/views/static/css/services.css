@@ -1,0 +1,29 @@
+
+
+
+#services{
+  width:100vw;
+  height:100vh;
+
+  font-family: 'Inconsolata', monospace;
+  background:orange;
+
+
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+  flex-wrap:wrap;
+
+}
+
+.serv{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:gray;
+}
+.serv_name{
+  font-size:2rem;
+}

@@ -12,12 +12,7 @@
   flex-direction:row;
   justify-content:center;
   align-items:center;
-
-
-
   font-family: 'Inconsolata', monospace;
-
-
 }
 
 .letter{
@@ -30,7 +25,6 @@
   background:black;
   color:whitesmoke;
   margin-top:-2rem;
-  transform: rotate(-15deg);
   transition:.2s;
 }
 .odd:hover{
@@ -39,16 +33,23 @@
 
 .even{
   background: whitesmoke;
-  transform: rotate(15deg);
   color:black;
   transition:.2s;
 }
 .even:hover{
   transform:rotate(0);
 }
+.left{
+  transform:rotate(-15deg);
+}
+.right{
+  transform:rotate(15deg);
+}
 
 
-#landing{
+
+
+#home{
   width:100vw;
   height:100vh;
   display:flex;
@@ -56,11 +57,34 @@
   justify-content:center;
   align-items:center;
 
-
-
   background-image: url('../img/landing_back.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 
+}
+
+
+#buttons{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  margin-top:5rem;
+  font-family: 'Inconsolata', monospace;
+}
+
+#buttons>a{
+  background:black;
+  color:whitesmoke;
+  text-decoration:none;
+  font-size:1.5rem;
+  border-radius:5px;
+  padding:5px 10px 5px 10px;
+  transition:.5s;
+  
+}
+
+#buttons>a:hover{
+  border-radius:10px;
 }
