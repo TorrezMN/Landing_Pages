@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200&display=swap');
+
+
+
+
+
+
+
+
+#mainTitle{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+
+
+
+  font-family: 'Inconsolata', monospace;
+
+
+}
+
+.letter{
+  font-size:4rem; 
+  padding:1rem;
+  margin:5px;
+}
+
+.odd{
+  background:black;
+  color:whitesmoke;
+  margin-top:-2rem;
+  transform: rotate(-15deg);
+  transition:.2s;
+}
+.odd:hover{
+  transform:rotate(0);
+}
+
+.even{
+  background: whitesmoke;
+  transform: rotate(15deg);
+  color:black;
+  transition:.2s;
+}
+.even:hover{
+  transform:rotate(0);
+}
+
+
+#landing{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+
+
+  background-image: url('../img/landing_back.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
