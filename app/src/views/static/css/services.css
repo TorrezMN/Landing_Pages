@@ -4,11 +4,7 @@
 #services{
   width:100vw;
   height:100vh;
-
   font-family: 'Inconsolata', monospace;
-  background:orange;
-
-
   display: flex;
   flex-direction:row;
   justify-content: center;
@@ -23,7 +19,26 @@
   justify-content:center;
   align-items:center;
   background:gray;
+  margin: 5px 10px 5px 10px;
+  transition:.5s;
+  min-width:50vw;
+  min-height:50vh;
+  padding:5px;
 }
 .serv_name{
-  font-size:2rem;
+  font-size:1.5rem;
+  width:50%;
+}
+.serv:hover .serv_icon{
+}
+
+#services_container{
+  padding:10px 15px 10px 15px;
+  min-width:85vw;
+  height:70vh;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
 }
