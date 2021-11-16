@@ -9,7 +9,11 @@
   flex-direction:row;
   justify-content: center;
   align-items:center;
-  flex-wrap:wrap;
+
+  background-image : url('../img/office.jpg');
+  background-size:100% 100%;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
 
 }
 
@@ -18,15 +22,14 @@
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  background:gray;
-  margin: 5px 10px 5px 10px;
+  background:rgba(0,0,0,.5);
   transition:.5s;
   min-width:50vw;
   min-height:50vh;
-  padding:5px;
+  color:whitesmoke;
 }
 .serv_name{
-  font-size:1.5rem;
+  font-size:2rem;
   width:50%;
 }
 .serv:hover .serv_icon{

@@ -4,6 +4,9 @@ import Menu from './views/menu.js';
 import Landing from './views/landing.js';
 import About from './views/about.js';
 import Services from './views/services.js';
+import Contact from './views/contact.js';
+
+
 
 function App() {
 
@@ -17,7 +20,7 @@ function App() {
       <About/>
 
       <Services/>
-
+      <Contact/>
     </div>
   );
 }
