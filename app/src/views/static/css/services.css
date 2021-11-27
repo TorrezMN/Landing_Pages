@@ -24,13 +24,13 @@
   align-items:center;
   background:rgba(0,0,0,.5);
   transition:.5s;
-  min-width:50vw;
-  min-height:50vh;
+  min-width:70vw;
+  min-height:60vh;
   color:whitesmoke;
 }
 .serv_name{
   font-size:2rem;
-  width:50%;
+  width:70%;
 }
 .serv:hover .serv_icon{
 }

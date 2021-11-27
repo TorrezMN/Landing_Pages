@@ -1,8 +1,56 @@
 
 
 
-#contact{
-  min-width:100vw;
-  min-height:50vh;
+
+#socials{
+  width:100vw;
+  height:50vh;
   background:black;
+
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+
 }
+
+.social_section{
+  width:30vw;
+  height:100%;
+  margin:5px;  
+
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.social_item{
+
+  margin:5px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.social_item>a{
+  color:whitesmoke;
+  font-size:3rem;
+
+  transition:.5s;
+}
+
+
+/* visited link */
+/* .social_item>a:visited { */
+  /* color: rgba(0,255,0,.3); */
+/* } */
+
+/* mouse over link */
+.social_item>a:hover {
+  color: rgba(255,20,147, 1);
+}
+
