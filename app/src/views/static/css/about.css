@@ -5,7 +5,7 @@
   width:100vw;
   height:100vh;
 
-  background-image: url('../img/about.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/02/00/49/people-2569234_960_720.jpg');
   background-size:cover;
   background-attachment:fixed;
   background-repeat:no-repeat;
@@ -22,8 +22,13 @@
   align-items:center;
   background: linear-gradient(45deg, transparent 25%, rgba(0,0,0,.7) 75%);
   color:whitesmoke;
+  transition:3s;
 }
 
+#aboutContent:hover{
+  background:rgba(0,0,0,.5);
+  color:white;
+}
 
 #aboutContent>#aboutTitle{
   font-size:3.5rem;

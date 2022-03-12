@@ -30,8 +30,6 @@ function Contact(){
             </a>
         </div>
       </div>
-      <div className='social_section'></div>
-      <div className='social_section'></div>
     
     </div>
   )
