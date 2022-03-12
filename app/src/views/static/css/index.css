@@ -5,11 +5,11 @@
   #index{
     width:100vw;
     height:100vh; 
-    background-image : url('../img/seat.png');
+    background-image : url( "https://cdn.pixabay.com/photo/2016/11/18/19/39/backpack-1836594_960_720.jpg");
     background-size: 100% 100%;
     background-attachment:fixed;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -19,6 +19,13 @@
     border:3px solid black;
     padding: 2rem 6rem 2rem 6rem;
     transition:.3s;
+  }
+  #indexTitle:hover{
+    background:rgba(0,0,0,.3);
+    border:3px solid whitesmoke;
+    padding: 2rem 6rem 2rem 6rem;
+    transition:.3s;
+    color:whitesmoke;
   }
   .title{
     font-size: var(--title-big-size);
@@ -36,10 +43,10 @@
   #index{
     width: 100vw;
     height: 100vh;
-    background-image: url('../img/seat.png');
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat; 
+    /* background-image: url('../img/seat.png'); */
+    /* background-attachment:fixed; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat;  */
 
     display:flex;
     flex-direction:column;
