@@ -1,22 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
-
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 
   /* Font family. */
-  --main-font:'Bebas Neue', cursive;
+  --main-font: "Bebas Neue", cursive;
   /* Font big devices. */
   --title-big-size: 5rem;
   --subtitle-big-size: 2rem;
   /* Font small devices. */
-  --title-small-size:3rem;
-  --subtitle-small-size:1.5rem;
+  --title-small-size: 3rem;
+  --subtitle-small-size: 1.5rem;
 }
-
 
 .App {
   text-align: center;

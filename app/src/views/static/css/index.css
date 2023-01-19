@@ -1,46 +1,41 @@
-
-
-
 @media all and (min-width: 30em) {
-  #index{
-    width:100vw;
-    height:100vh; 
-    background-image : url( "https://cdn.pixabay.com/photo/2016/11/18/19/39/backpack-1836594_960_720.jpg");
+  #index {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/18/19/39/backpack-1836594_960_720.jpg");
     background-size: 100% 100%;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  #indexTitle{
-    border:3px solid black;
+  #indexTitle {
+    border: 3px solid black;
     padding: 2rem 6rem 2rem 6rem;
-    transition:.3s;
+    transition: 0.3s;
   }
-  #indexTitle:hover{
-    background:rgba(0,0,0,.3);
-    border:3px solid whitesmoke;
+  #indexTitle:hover {
+    background: rgba(0, 0, 0, 0.3);
+    border: 3px solid whitesmoke;
     padding: 2rem 6rem 2rem 6rem;
-    transition:.3s;
-    color:whitesmoke;
+    transition: 0.3s;
+    color: whitesmoke;
   }
-  .title{
+  .title {
     font-size: var(--title-big-size);
     font-family: var(--main-font);
   }
-  .subtitle{
+  .subtitle {
     font-size: var(--subtitle-big-size);
     font-family: var(--main-font);
   }
 }
 
-
-
 @media all and (max-width: 30em) {
-  #index{
+  #index {
     width: 100vw;
     height: 100vh;
     /* background-image: url('../img/seat.png'); */
@@ -48,18 +43,18 @@
     /* background-position: center; */
     /* background-repeat: no-repeat;  */
 
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  .title{
-    font-size:var(--title-small-size);
-    font-family:var(--main-font);
+  .title {
+    font-size: var(--title-small-size);
+    font-family: var(--main-font);
   }
-  .subtitle{
-    font-size:var(--subtitle-small-size);
-    font-family:var(--main-font);
+  .subtitle {
+    font-size: var(--subtitle-small-size);
+    font-family: var(--main-font);
   }
 }

@@ -1,69 +1,63 @@
 @media all and (min-width: 30em) {
-  #about{
+  #about {
     background: blue;
     width: 100vw;
-    height:100vh;     
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    background-image: url('https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_960_720.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_960_720.jpg");
     background-size: 100% 100%;
-    background-attachment:fixed;
-    background-position:10% 40%;
+    background-attachment: fixed;
+    background-position: 10% 40%;
     background-repeat: no-repeat;
   }
-  #aboutTitle{
-    background:rgba(0,0,0,.2);
-    transition:.5s;
-    padding:2rem 5rem 2rem 5rem;
+  #aboutTitle {
+    background: rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    padding: 2rem 5rem 2rem 5rem;
   }
-  #aboutTitle:hover{
-    background:rgba(0,0,0,.5);
-    color:whitesmoke;
+  #aboutTitle:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
   }
-  .title{
-    font-size:var(--title-big-size);
+  .title {
+    font-size: var(--title-big-size);
     font-family: var(--main-font);
   }
-  .description{
+  .description {
     font-size: var(--subtitle-big-size);
-    font-family:var(--main-font);
-    width:70vw;
+    font-family: var(--main-font);
+    width: 70vw;
   }
 }
-
 
 @media all and (max-width: 30em) {
-  #about{
-    width:100vw;
-    height:100vh;
+  #about {
+    width: 100vw;
+    height: 100vh;
 
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    background-image: url('https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_960_720.jpg');
-    background-attachment:fixed;
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_960_720.jpg");
+    background-attachment: fixed;
     background-position: 35% 80%;
     background-repeat: no-repeat;
-    position:relative;
+    position: relative;
   }
-  #aboutTitle{
-
+  #aboutTitle {
   }
-  .title{
-    font-size:var(--title-small-size);    
-    font-family:var(--main-font);
-
+  .title {
+    font-size: var(--title-small-size);
+    font-family: var(--main-font);
   }
-  .description{
-    font-size:var(--subtitle-small-size);
-    font-family:var(--main-font);
-    width:80vw;
+  .description {
+    font-size: var(--subtitle-small-size);
+    font-family: var(--main-font);
+    width: 80vw;
   }
 }
-
-
-

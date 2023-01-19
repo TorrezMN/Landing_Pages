@@ -1,5 +1,3 @@
-
-
 /* The navigation bar */
 .navbar {
   overflow: hidden;
@@ -9,7 +7,7 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 
-  font-family:var(--main-font);
+  font-family: var(--main-font);
 }
 
 /* Links inside the navbar */
@@ -21,13 +19,12 @@
   padding: 14px 16px;
   text-decoration: none;
 
-  transition:1s;
+  transition: 1s;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
   background: #ddd;
-  transition:1s;
+  transition: 1s;
   color: black;
 }
-

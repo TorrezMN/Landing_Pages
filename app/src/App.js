@@ -1,29 +1,23 @@
-import './App.css';
+import "./App.css";
 
-import Menu from './views/menu.js';
-import Index from './views/index.js';
-import About from './views/about.js';
-import Scales from './views/scales.js';
-import Contact from './views/contact.js';
-
-
-
+import Menu from "./views/menu.js";
+import Index from "./views/index.js";
+import About from "./views/about.js";
+import Scales from "./views/scales.js";
+import Contact from "./views/contact.js";
 
 function App() {
-  document.title='Fresh Air';
+  document.title = "Fresh Air";
   return (
     <div className="App">
-      <Menu/>
-      <Index/>
+      <Menu />
+      <Index />
 
-      <About/>
+      <About />
 
+      <Scales />
 
-      <Scales/>
-
-
-
-      <Contact/>
+      <Contact />
     </div>
   );
 }
